@@ -1,60 +1,30 @@
-# 🌐 Engineer Profile Page - mjyuu
+📄 연수생 우선명 답안지
 
-This is a **personal profile webpage** built with **HTML, CSS, and JavaScript**.  
-It serves as a portfolio-style introduction page that highlights background, skills, projects, and achievements.
+1. 🔗 깃허브 계정(레포지터리) 주소
+   🌐 github.com/murasakijyuutann/myProfile
 
----
 
-## ✨ Features
+2. 🌍 사이트 도메인 주소
+   🚀 https://murasakijyuutann.github.io/myProfile
 
-- **Navigation bar** for quick access to different sections  
-- **Live clock** (JavaScript-powered) displayed at the top of the page  
-- **Profile introduction** with image and greeting  
-- **About section** describing education and career focus  
-- **Skills section** listing programming languages, frameworks, and tools  
-- **Journey timeline** of learning and career milestones  
-- **Projects showcase** with GitHub links  
-- **Achievements section** including certifications and qualifications  
-- **Fun facts** for a personal touch  
-- **Contact form** for inquiries  
-- **Footer with quick links**  
 
----
+⌚ JavaScript Clock Code
+3. 🖥️ 디지털 시계(자바스크립트 코드) 
 
-## 🛠️ Technologies Used
+    <script>
+       // ⏰ Select the clock display element
+       const display = document.getElementById("display");
 
-- **HTML5** – Structure of the webpage  
-- **CSS3** – Styling (external stylesheet: `css/style.css`)  
-- **JavaScript (Vanilla)** – Dynamic clock feature  
+       // 🔄 Function to update the clock
+       function updateClock() {
+         const date = new Date();
+         display.textContent = date.toLocaleTimeString();
+       }
 
----
+       // ⚡ Update immediately on page load
+       updateClock();
 
-## 📂 Project Structure
-```
-├── index.html # Main HTML file
-├── css/
-│ └── style.css # Custom CSS styles
-├── img/ # Profile pictures, header image, and artwork
-└── README.md # Project documentation
-```
+       // ⏳ Keep updating every second
+       setInterval(updateClock, 1000);
+     </script>
 
----
-
-## 🚀 How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/engineer-profile.git
-2. Open index.html in your browser.
-
-3. That’s it! 🎉
-
-📬 Contact
-
-Created by mjyuu
-
-GitHub: murasakijyuutann
-
-Email: neneke.emu@gmail.com
-
-Feel free to reach out for feedback, collaboration, or questions!
