@@ -7,8 +7,6 @@
 2. 🌍 사이트 도메인 주소
    🚀 https://murasakijyuutann.github.io/myProfile
 
-
-⌚ JavaScript Clock Code
 3. 🖥️ 디지털 시계(자바스크립트 코드) 
 
     <script>
