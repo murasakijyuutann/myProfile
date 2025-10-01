@@ -1,0 +1,158 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #fdfdfd;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Navbar */
+header nav {
+  background: #23d4e0;
+  padding: 10px;
+}
+
+.main-navbar {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.main-navbar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-navbar li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero image */
+.main-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Sections */
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: #0077cc;
+}
+
+section img {
+  margin-top: 15px;
+  border-radius: 6px;
+}
+
+/* Projects grid */
+#projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.project {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fafafa;
+}
+
+.project a {
+  color: #0077cc;
+  font-weight: bold;
+  text-decoration: none;
+}
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Contact form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+form label {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+form input, form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #23d4e0;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0099aa;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #ddd;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  #projects {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main-navbar {
+    gap: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-navbar {
+    font-size: 18px;
+  }
+  .main-image img {
+    height: 350px;
+  }
+}

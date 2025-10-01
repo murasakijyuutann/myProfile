@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>エンジニアプロフィール - mjyuu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Clock display -->
+    <div id="display" style="font-size: 50px; text-align: center; margin: 10px 20px;"></div>
+
+    <!-- Header -->
+    <header>
+      <nav>
+        <!-- Main navigation links -->
+        <ul class="main-navbar">
+          <li><a href="#home">ホーム</a></li>
+          <li><a href="#about">私について</a></li>
+          <li><a href="#skills">スキル</a></li>
+          <li><a href="#journey">私の軌跡</a></li>
+          <li><a href="#projects">プロジェクト</a></li>
+          <li><a href="#achievements">資格と業績</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header image -->
+      <div class="main-image">
+        <img src="img/mikumikubeam.gif" alt="Header Image">
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+
+      <!-- Intro section -->
+      <section id="home" class="intro">
+        <h1>こんにちは！mjyuuです！ 🚀</h1>
+        <p>優れたフルスタック開発者になることを目指しています！</p>
+        <p>私のプロフィールページへようこそ！</p>
+        <div class="profile-pic">
+          <img src="img/mjyuu.jpg" alt="Profile Picture">
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section id="about">
+        <h2>私について</h2>
+        <p>オーストラリアの大学でコンピュータサイエンスの学位を取得し、システム管理を専攻しました。</p>
+        <p>現在はウェブ開発者として働いており、フロントエンド技術を専門とし、フルスタック開発を学んでいます。</p>
+        <p>趣味はビデオゲーム、アニメ鑑賞、新しい技術の探求です。</p>
+        <p>お気に入りのキャラクター: 初音ミク 🎤</p>
+        <img src="img/100484676_p0.jpg" alt="Vocaloid Group" style="width:100%; margin-top:10px;">
+      </section>
+
+      <!-- Skills section -->
+      <section id="skills">
+        <h2>スキルや経験</h2>
+        <ul>
+          <li>プログラミング言語 – Java, JavaScript, TypeScript, C, C++</li>
+          <li>ウェブ開発 – HTML, CSS, React, Node.js, Tailwind CSS</li>
+          <li>バックエンドフレームワーク – Spring Boot, Express, Prisma</li>
+          <li>データベース管理 – MySQL, Supabase</li>
+          <li>クラウドサービス – AWS, Google Cloud Platform</li>
+          <li>バージョン管理 – Git, GitHub</li>
+        </ul>
+      </section>
+
+      <!-- Journey section -->
+      <section id="journey">
+        <h2>私の軌跡</h2>
+        <ul>
+          <li>2018 -- 大学でJavaとPythonの学習を開始</li>
+          <li>2020 -- 学生プロジェクトとして初めてのReactアプリを構築</li>
+          <li>2021 -- システム管理のインターンシップ</li>
+          <li>2023 -- ジュニアウェブ開発者 (React + MySQL)</li>
+          <li>2025 -- Spring BootとAWSを使用してフルスタックに拡張</li>
+        </ul>
+      </section>
+
+      <!-- Projects section -->
+      <section id="projects">
+        <h2>参加したプロジェクト</h2>
+        <div>
+          <h3>🌐 フォートフォリオ</h3>
+          <p>ReactとTailwind CSSを使用して構築されたレスポンシブポートフォリオウェブサイト。</p>
+          <a href="https://github.com/murasakijyuutann/personal-portfolio" target="_blank">GitHubで表示</a>
+        </div>
+        <div>
+          <h3>📝 フォーラム</h3>
+          <p>JWTベースの認証とMySQLバックエンドを備えたフォーラムスタイルのWebアプリ。</p>
+          <a href="https://github.com/murasakijyuutann/spring-boot-board" target="_blank">GitHubで表示</a>
+        </div>
+      </section>
+
+      <!-- Achievements section -->
+      <section id="achievements">
+        <h2>資格と業績</h2>
+        <ul>
+          <li>AWS認定クラウドプラクティショナー (2024)</li>
+          <li>日本語能力試験 (JLPT N1)</li>
+          <li>フルスタックWeb開発ブートキャンプ修了</li>
+        </ul>
+      </section>
+
+      <!-- Fun facts section -->
+      <section id="fun-facts">
+        <h2>私についての面白い事実</h2>
+        <ul>
+          <li>Vocaloidのコンサートグッズを集めています 🎶</li>
+          <li>Dota 2のメインインボーカー 🔮</li>
+          <li>1日にヨークシャーティーを3杯飲みます ☕</li>
+        </ul>
+      </section>
+
+      <!-- Contact section -->
+      <section id="contact">
+        <h2>お問い合わせ</h2>
+        <form>
+          <label>名前: <input type="text" name="name" required></label>
+          <label>メール: <input type="email" name="email" required></label>
+          <label>メッセージ: <textarea name="message" rows="4"></textarea></label>
+          <button type="submit">送信</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 mjyuu. All Rights Reserved.</p>
+      <p>
+        <a href="#home">ホーム</a> | 
+        <a href="#skills">スキル</a> | 
+        <a href="#projects">プロジェクト</a> | 
+        <a href="#contact">お問い合わせ</a>
+      </p>
+    </footer>
+
+  </div>
+
+  <!-- JavaScript clock -->
+  <script>
+    // Select the clock display element
+    const display = document.getElementById("display");
+
+    // Function to update the clock every second
+    setInterval(() => {
+      const date = new Date();
+      const theTime = date.toLocaleTimeString();
+      display.textContent = theTime;
+    }, 1000);
+
+    // Run immediately once so there's no 1-second delay on load
+    const date = new Date();
+    display.textContent = date.toLocaleTimeString();
+  </script>
+</body>
+</html>
