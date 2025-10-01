@@ -142,20 +142,22 @@
   </div>
 
   <!-- JavaScript clock -->
-  <script>
-    // Select the clock display element
-    const display = document.getElementById("display");
+ <script>
+  // Select the clock display element
+  const display = document.getElementById("display");
 
-    // Function to update the clock every second
-    setInterval(() => {
-      const date = new Date();
-      const theTime = date.toLocaleTimeString();
-      display.textContent = theTime;
-    }, 1000);
-
-    // Run immediately once so there's no 1-second delay on load
+  // Function to update the clock
+  function updateClock() {
     const date = new Date();
     display.textContent = date.toLocaleTimeString();
-  </script>
+  }
+
+  // Update immediately on page load
+  updateClock();
+
+  // Keep updating every second
+  setInterval(updateClock, 1000);
+</script>
+
 </body>
 </html>
